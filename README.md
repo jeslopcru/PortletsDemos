@@ -5,6 +5,8 @@ En este repositorio están subidos todos los portlets para Liferay que ilustran 
 
 
 Descripción
+
+
 	- brown-tasks-portlet: portlet para gestionar tareas, sirve para ilustrar el uso del plugin "Service Builder" de Liferay IDE.
 
 	- HelloSpring-portlet: portlet para añadir dependencias (librerías Spring) utilizando Liferay IDE.
