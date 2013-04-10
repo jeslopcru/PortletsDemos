@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.jesuslc.demos.browntasks.service.TaskItemLocalService" class="com.jesuslc.demos.browntasks.service.impl.TaskItemLocalServiceImpl" />
+	<bean id="com.jesuslc.demos.browntasks.service.persistence.TaskItemPersistence" class="com.jesuslc.demos.browntasks.service.persistence.TaskItemPersistenceImpl" parent="basePersistence" />
+	<bean id="com.jesuslc.demos.browntasks.service.TaskListLocalService" class="com.jesuslc.demos.browntasks.service.impl.TaskListLocalServiceImpl" />
+	<bean id="com.jesuslc.demos.browntasks.service.persistence.TaskListPersistence" class="com.jesuslc.demos.browntasks.service.persistence.TaskListPersistenceImpl" parent="basePersistence" />
+</beans>

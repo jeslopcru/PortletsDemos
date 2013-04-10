@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	<portlet>
+		<portlet-name>UserRegistration</portlet-name>
+		<display-name>UserRegistration</display-name>
+		<portlet-class>com.jesuslc.UserRegistrationPortlet</portlet-class>
+		<init-param>
+			<name>defaultEmail</name>
+			<value>@liferay.com</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+			<portlet-mode>EDIT</portlet-mode>
+			<portlet-mode>HELP</portlet-mode>
+		</supports>
+		<resource-bundle>content.Language</resource-bundle>
+		<container-runtime-option>
+			<name>javax.portlet.actionScopedRequestAttributes</name>
+			<value>true</value>
+		</container-runtime-option>
+	</portlet>
+</portlet-app>

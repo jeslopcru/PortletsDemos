@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.jesuslc.demos.browntasks.model.TaskItem">
+		<field name="id" type="long" />
+		<field name="list" type="long" />
+		<field name="label" type="String" />
+		<field name="weight" type="int" />
+		<field name="description" type="String" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.jesuslc.demos.browntasks.model.TaskList">
+		<field name="id" type="long" />
+		<field name="portlet" type="String" />
+		<field name="description" type="String" />
+		<field name="weight" type="int" />
+	</model>
+</model-hints>
